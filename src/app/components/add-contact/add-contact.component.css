@@ -1,0 +1,36 @@
+.media {
+    height: 8rem;
+    border-bottom: 1px solid #e3e4e6;
+}
+
+.media-body {
+    border: 1px solid green
+}
+
+
+.form-control {
+    border: none;
+    border-bottom: 2px solid rgb(101, 224, 101);
+    
+}
+
+.form-control.ng-invalid.ng-touched {
+    border-color: red;
+}
+.imageSec
+{
+    transform: translate(0,75px);
+}
+.imageSec input
+{
+    display: none;
+}
+.imageSec i
+{
+    padding: 51px;
+    background-color:rgba(224, 218, 218, 0.8);
+    cursor: pointer;
+    transform: translate(0,-128px);
+    color: rgb(61, 60, 60);
+    font-size: 30px;
+}
